@@ -91,7 +91,7 @@ const { linkgp } = require ('./lib/exportaciones/linkgp')
 //Connet
 conn.connect()
 const leo = conn.leo
-/* 𝕱𝖚𝖓𝖈𝖎𝖔𝖓𝖊𝖘 | 𝕭𝖆𝖇𝖞𝕭𝖊𝖈𝖍𝖔𝖘𝖔 | 𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊*/
+/*FUNCIONES| GARA-BOT*/
 //𝕽𝖊𝖌𝖎𝖘𝖙𝖗𝖔
 const getRegisteredRandomId = () => {
   return _registered[Math.floor(Math.random() * _registered.length)].id
@@ -141,7 +141,7 @@ try {pushnem = choute.key.fromMe ? leo.user.name : conts.notify || conts.vname |
     ppimg = 'https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg'}  
     
      teks = 
-`😙Hola, @${num.split('@')[0]}
+`😙Hi bro, saludo de Gara, @${num.split('@')[0]}
 Bienvenido a ${mdata.subject}
     
 Esperemos la pases bien y te guste el grupo.
@@ -183,7 +183,7 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
    let buff = await getBuffer(ppimg)
     //leo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
     leo.sendMessage(mdata.id, buff, MessageType.image,  {caption: teks, contextInfo: { mentionedJid: [num], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
-    {"title": 'Como Instalar Este Bot',       
+    {"title": 'no',       
     "body": 'Facil y Rapido',  
     "thumbnail": fs.readFileSync('./media/imagen/youtube-mi.jpg'),
     "sourceUrl": 'https://www.youtube.com/watch?v=Uv8U9VChJHo'}}})
@@ -555,7 +555,7 @@ const chr = {
   "mimetype": "image/jpeg",
   "jpegThumbnail": fs.readFileSync(`./media/imagen/GFX.jpg`)
   },
-  "title": `${yo} | 𝑩𝒂𝒃𝒚𝑩𝒆𝒄𝒉𝒐𝒔𝒐`,
+  "title": `${yo} GARA-BOT`,
   "description": "",
   "currencyCode": "L&J",
   "priceAmount1000": "9999999999999999",
@@ -576,13 +576,13 @@ AGRADECIMIENTO
 Si quieres agradecer o realizar una donación por utilizar mi bot puedes hacerlo, subcribiendote a mi canal y siguiendome en mis redes:
 
 ★·.·¯·.·★ *YOUTUBE* ★·.·¯·.·★
-_https://www.youtube.com/c/thechout?sub_confirmation=1_
+_https://www.youtube.com/c/_
 
 ★·.·¯·.·★ *INSTAGRAM* ★·.·´¯·.·★
-https://www.instagram.com/the_choute_/
+https://www.instagram.com/quirogaangel_15/
 
 ★·.·¯·.·★ *GITHUB* ★·.·¯·.·★
-https://github.com/thechoute/thechoute`
+https://github.com/Ranciovich1/Gara-Bot
 const quecanciones = `
 Porfavor, es nesesario que envies el link de la musica para poder continuar, si no sabes como sacar el link de un audio.
 
@@ -672,6 +672,10 @@ _Si el bot presenta algun fallo, notificarlo a @${Oowner.split('@')[0]}_
 `
 
 const owener = `
+*_-Tag del clan-_*
+
+${prefix} tag
+
 ๑۩۞۩๑ 𝐎𝐰𝐧𝐞𝐫 𝐨 𝐁𝐨𝐭..๑۩۞۩๑
 
 ||- *_-Banear Usuario del Bot-_*
@@ -806,13 +810,13 @@ const base = `
 INFO DE MI CREADOR
 
 *Youtube:*
-https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1
+https://www.youtube.com/channel
 
 *Instagram:*
-https://www.instagram.com/the_choute_/
+https://www.instagram.com/quirogaangel15/
 
 *Github:*
-https://github.com/Thechoute
+https://github.com/Ranciovich1/Gara-Bot
 `
 
 const infobot =
@@ -843,9 +847,9 @@ Mi creador es @${Oowner.split('@')[0]}
 
 *Instagram:* ${instachoute}
 
-*Github:* ${gitchoute}
+*Github:* ${Ranciovich01}
 
-*Youtube:* youtube.com/c/thechout`
+*Youtube:* youtube.com/
 
 const registro = `
 *PORFAVOR ESCRIBE BIEN EL FORMATO DE REGISTRO:* 
@@ -874,18 +878,18 @@ https://youtu.be/Uv8U9VChJHo
 *PASOS DE INSTALACION*
 Insttala archivos necesarios
 
-- pkg upgrade && update
+- apt update && apt upgrade
 - pkg install nodejs
 - pkg install git
 - pkg install bash
 
 *Clona este repositorio*
 
-git clone https://github.com/thechoute/Baby-Ofc
+git clone https://github.com/Ranciovich1/Gara-Bot
 
 *Inicia la instalacion*
 
-- cd Baby-Ofc
+- cd Gara-bot
 - bash install.sh
 PARA INICIAR EL BOT
 
@@ -896,7 +900,7 @@ const allmenu =
 `
 ╔─━━━░★░━━━━╗
             *MENU OFICIAL*
-            𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊
+          GARA-BOT 
 ╚─━━━░★░━━━─╝
 
 ¤ = ~ ~ ◉ ~~ = ¤.•♫•♬•♬•♫•.
@@ -957,7 +961,7 @@ ${owener}
         ownerB: 'Este comandos solo puede ser utilizado desde el numero del bot',
         admin: '𝐄𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞𝐬 𝐬𝐨𝐥𝐨 𝐩𝐚𝐫𝐚 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐝𝐨𝐫𝐞𝐬 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.',
         Badmin: '𝐁𝐨𝐭𝐜𝐢𝐭𝐨 𝐝𝐞𝐛𝐞 𝐬𝐞𝐫 𝐚𝐝𝐦𝐢𝐧 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨',
-        usrReg: `No estas registrado para registrarte utiliza\n${prefix}reg\n\n*Ejemplo:*\n\n${prefix}reg Thechoute|14`
+        usrReg: `No estas registrado para registrarte utiliza\n${prefix}reg\n\n*Ejemplo:*\n\n${prefix}reg Gara|14`
       }
     }
 
@@ -1007,10 +1011,10 @@ if (test.includes(`grupo`)){
   💭:Se ayuda a quienes tengas problemas
   
   Grupo 1 : 
-  _https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1_
+  _https://chat.whatsapp.com/
   
   Grupo 2 : 
-  _https://chat.whatsapp.com/GQnptaCf21IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
+  _https://chat.whatsapp.com_`, MessageType.text, {quoted: choute})
   addFilter(from)
     addLevelingLevel(sender, 5)	}}
 
@@ -1193,6 +1197,9 @@ if (choute.message.listResponseMessage){
     leo.relayWAMessage(all)
   addFilter(from)
   addLevelingLevel(sender, 5)	}}
+
+//TAG
+  if (choute.message.listResponseMessage){
   
   //MENU OWNER
   if (choute.message.listResponseMessage){
@@ -1458,7 +1465,7 @@ case 'reg':
 [💈] 𝐄𝐃𝐀𝐃: _${edad}_
 [💈] 𝐇𝐎𝐑𝐀: _${time}_
 [💈] DNI: _${serialUser}_
-└────「 *𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊* 」
+└────「*GARA-BOT*」
 Verificación completa usa *${prefix}menu* para ver el Menu`
                 let tampa = await getBuffer(ppimg)
                 leo.sendMessage(from, tampa, image, {quoted: choute, caption: capt})
@@ -1641,7 +1648,7 @@ case 'grupo':
             if (!botAdmin) return reply(baby.only.Badmin)
             if (args[0] === 'abrir') {
             leo.groupSettingChange(from, GroupSettingChange.messageSend, false).then(() => {
-            wa.sendFakeStatus(from, "*Grupo Abierto Correctamente*", "GROUP SETTING")
+            wa.sendFakeStatus(from, "*Grupo Abierto como tu...Correctamente*", "GROUP SETTING")
             })
             } else if (args[0] === 'cerrar') {
             leo.groupSettingChange(from, GroupSettingChange.messageSend, true).then(() => {
@@ -2078,7 +2085,7 @@ its = await getBuffer (ppimg)
     {"title": 'Sigueme en Instagram',       
     "body": 'Subcribete Te Podria Interesar',  
     "thumbnail": fs.readFileSync('./media/imagen/ldeadnote.png'),
-    "sourceUrl": 'https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1'}}})
+    "sourceUrl": 'https://www.youtube.com/channel/=1'}}})
     break
 case 'top5':
 
@@ -2577,7 +2584,7 @@ mimetype: 'audio/mp4', ptt: true, duration :-999999999999999, quoted: choute})
 fs.unlinkSync(ran)
 })
 break
-// -    -     -     - 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 - - - -   
+// -    -     -     - 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 Gara-bot - - - -   
 case 'neon':
   if (!isRegister) return reply(baby.only.usrReg)
 
