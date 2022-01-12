@@ -7,11 +7,13 @@ leo.on('chat-update', async (choute));
 const conts = choute.key.fromMe ? leo.user.jid : leo.contacts[sender] || { notify: jid.replace(/@.+/, '') }
 const pushname = choute.key.fromMe ? leo.user.name : conts.notify || conts.vname || conts.name || '-'
 
-    const menu = `𝕭𝖆𝖇𝖞𝕭𝖊𝖈𝖍𝖔𝖘𝖔
+    const menu = `𝐺𝑎𝑟𝑎.𝑖𝑜
     𝐔𝐬𝐮𝐚𝐫𝐢𝐨: ${pushname}
     𝐖𝐚.𝐦𝐞:wa.me/
     𝐇𝐨𝐫𝐚: 
     
+    *Tag*
+    _tag_    
     *𝐆𝐫𝐮𝐩𝐨𝐬:* 
     _cg_
     _comag_
