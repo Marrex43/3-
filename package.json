@@ -1,5 +1,5 @@
 {
-  "name": "BabyBechoso",
+  "name": "𝐺𝑎𝑟𝑎.𝑖𝑜",
   "version": "99999.9.9",
   "description": "Termux only",
   "main": "thechoute.js",
@@ -43,8 +43,8 @@
     "brainly-scraper": "^1.0.3"
   },
   "scripts": {
-    "start": "node thechoute.js"
+    "start": "Gara-bot.js"
   },
-  "author": "The Choute",
-  "homepage": "https://github.com/thechoute/Baby-Ofc/readme"
+  "author": "𝐺𝑎𝑟𝑎.𝑖𝑜",
+  "homepage": "https://github.com/Ranciovich1/Gara-Bot"
 }
